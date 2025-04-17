@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Daily Journal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="icon" href="/img/logo.png"/>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Daily Journal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-dark">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#article">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigation -->
+
+  <!-- Hero -->
+  <section id="hero" class="text-sm-start">
+    <div class="container text-center p-5 bg-danger-subtle" style="text-align: center;">
+      <div class="d-sm-flex flex-sm-row-reverse align-items-center">
+        <img src="/img/img1.jpg" class="img-fluid" style="width: 300px;">
+        <div>
+          <h1 class="fw-bold display-4">KPMN Consulting</h1>
+          <h4 class="lead display-6">Percayakan solusi IT anda ke kami!</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Hero -->
+
+  <!-- Article -->
+  <section id-="article">
+    <div class="container text-center p-5" style="text-align: center;">
+      <div>
+        <h1>Services</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 justify-content-center">
+              <img src="/img/img2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">IT Solution with AI</h5>
+                <p class="card-text">Our cutting-edge IT solutions powered by Artificial Intelligence. We leverage AI to enhance decision-making, automation, and efficiency in your digital ecosystem.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 15 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 justify-content-center">
+              <img src="/img/img3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Server Availability 99.9%</h5>
+                <p class="card-text">Ensure your systems run smoothly with our highly reliable server infrastructure. We guarantee 99.9% uptime to support your critical business operations without interruption.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 1 hours ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 justify-content-center">
+              <img src="img/img4.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">IT Experts</h5>
+                <p class="card-text">Our team of IT professionals brings years of experience to solve your tech challenges. From system design to implementation, we deliver expert-driven solutions tailored to your needs.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 30 seconds ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Article -->
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <div class="container text-center p-5 bg-danger-subtle" style="text-align: center;">
+      <h1 class="fw-bold display-4 pb-3">Our Partners</h1>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/img5.png" class="d-block w-100" style="height: 300px; object-fit: contain;" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/img6.png" class="d-block w-100" style="height: 300px; object-fit: contain;" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/img7.png" class="d-block w-100" style="height: 300px; object-fit: contain;" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- Gallery -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="text-center p-5" style="text-align: center;">
+      <div>
+        <a href="https://www.instagram.com/luphieanza">
+          <i class="bi bi-instagram h2 p-2 text-dark"></i>
+        </a>
+        <a href="https://twitter.com/luphieanza">
+          <i class="bi bi-twitter h2 p-2 text-dark"></i>
+        </a>
+        <a href="https://wa.me/628979691023">
+          <i class="bi bi-whatsapp h2 p-2 text-dark"></i>
+        </a>
+      </div>
+      <div>Muhammad Rafly Andrianza <i class="bi bi-c-circle"></i> 2025</div>
+    </div>
+  </footer>
+  <!-- Footer -->
+</body>
+</html>
